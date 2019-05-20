@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet,Image } from "react-native";
 import React, { Component } from "react";
 import { MenuButton, Logo } from "../components/header/header";
 import { HeaderBackButton } from "react-navigation";
@@ -15,7 +15,8 @@ export default class SettingsScreen extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Hello! Welcome to my settings page</Text>
+        <Text style={styles.welcome}>Hello! Welcome to my settings page</Text>
+
       </View>
     );
   }
@@ -27,4 +28,11 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center"
   }
+  ,
+  welcome: {
+    fontSize: 18,
+    textAlign: 'center',
+    margin: 10,
+    color: "#d93737"
+  },
 });

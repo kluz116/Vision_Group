@@ -7,8 +7,7 @@ export default class App extends React.Component {
   render() {
     return (
       
-      <View style = {styles.MainContainer}>
- 
+      <View style = {styles.AppContainer}>
          <Drawer/>
       </View>
     );
@@ -17,14 +16,10 @@ export default class App extends React.Component {
 const styles = StyleSheet.create(
   {
    
-  MainContainer: 
+  AppContainer: 
   {
-   
-  flex: 1,
-   
-   
-  // Set hex color code here.
-  backgroundColor: '#FFEB3B',
+      flex: 1,
+      backgroundColor: '#f0f0f0',
    
   }
    

@@ -16,7 +16,7 @@ export default class drawerContentComponents extends Component {
     return (
         <View style={styles.maincontainer}>
             <View style={styles.headerContainer}>
-                <ImageBackground source={require('../assets/pat.png')} style={{flex: 1, width: 280, justifyContent: 'center'}} >
+                <ImageBackground source={require('../assets/pat.png')} style={{flex: 1, width: 250, justifyContent: 'center'}} >
                         <Image 
                             source={require('../assets/user.png')}  
                             style={{width: 90, height: 90, borderRadius: 400/ 2, alignSelf:"center"}} 

@@ -1,8 +1,7 @@
-import { View, Text, StyleSheet,Image,FlatList,ActivityIndicator } from "react-native";
-import { Button, Card, Divider } from 'react-native-elements';
+import { View, Text, StyleSheet,Image,FlatList,ActivityIndicator,TouchableOpacity } from "react-native";
 import React, { Component } from "react";
 import { MenuButton, Logo } from "../components/header/header";
-import CalendarPicker from 'react-native-calendar-picker';
+
 
 
 export default class PaymentOptionScreen extends React.Component {
@@ -52,16 +51,16 @@ export default class PaymentOptionScreen extends React.Component {
       <FlatList
       data={this.state.dataSource}
       keyExtractor={item => item.id}
-      //data={[ {id: '1',payment_method:'Mtn Mobile Money',image_url:'../assets/mtn.jpg'},{id: '2',payment_method:'Airtel Mobile Money',image_url:'../assets/artel.jpg'},{id: '3',payment_method:'Visa',image_url:'../assets/visa.jpg'}]}  
-      keyExtractor={item => item.id}
       numColumns={2}
       renderItem={({ item }) => {
         return (
 
               <View style={styles.container}>
-              
+        
               <Image style={styles.imageThumbnail}  source = {{ uri: item.image_url }}  resizeMode = "cover" />
-               <Text style={styles.welcome}>{item.payment_method}</Text>
+              <TouchableOpacity onPress={() => this.props.navigation.navigate('MakePayments')}>
+                   <Text style={styles.welcome}>{item.payment_method}</Text>
+              </TouchableOpacity>
               </View>
 
               
@@ -86,12 +85,14 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderRadius:10,
     marginTop:10,
-    backgroundColor: '#f0f0f0',
+    backgroundColor: '#fff',
     shadowColor: '#000',
     shadowOffset: { width: 2, height: 2 },
     shadowOpacity: 0.4,
     shadowRadius: 5,
     elevation: 5,
+    borderWidth: 1, 
+    borderColor: '#f0f0f0',
   }, list: {
     justifyContent: 'center',
     flexDirection: 'row',

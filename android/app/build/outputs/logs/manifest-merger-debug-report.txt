@@ -5,10 +5,15 @@ INJECTED from /home/kluz/Vision/VisionGroup/android/app/src/main/AndroidManifest
 INJECTED from /home/kluz/Vision/VisionGroup/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /home/kluz/Vision/VisionGroup/android/app/src/main/AndroidManifest.xml:1:1-26:12
 MERGED from /home/kluz/Vision/VisionGroup/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-pdf] /home/kluz/Vision/VisionGroup/node_modules/react-native-pdf/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:rn-fetch-blob] /home/kluz/Vision/VisionGroup/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-47:12
 MERGED from [:react-native-gesture-handler] /home/kluz/Vision/VisionGroup/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-vector-icons] /home/kluz/Vision/VisionGroup/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.59.5] /home/kluz/.gradle/caches/transforms-1/files-1.1/react-native-0.59.5.aar/b1048aedb26b63e34ccfe358aa95b9a9/AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/52bb4b15c0a5ca5a0cdc3460f429c570/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.barteksc:android-pdf-viewer:3.1.0-beta.1] /home/kluz/.gradle/caches/transforms-1/files-1.1/android-pdf-viewer-3.1.0-beta.1.aar/f397a5ea853ac68b3b5cb2568763774b/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.barteksc:pdfium-android:1.9.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/pdfium-android-1.9.0.aar/751f6e1316930eabf842c89409779640/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d106e078e9e927b0cc4f410997d0f2cb/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-fragment:28.0.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/1ee85016db05355c6075b8c5d02ee514/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/0a6ee1204f72cd1a3274a1b42f1e3f8b/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:28.0.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/fc81fec2e077802ad35f1aa13f70c012/AndroidManifest.xml:17:1-22:12
@@ -22,6 +27,7 @@ MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/kluz/.gradle/ca
 MERGED from [com.android.support:customview:28.0.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/682d6ceb149f4071978f7c2183eb9711/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/34d4d5d3e25e6d41b82dd09cbff37918/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/20e8cfbf38158e3e74b7ac3b6ebd18a6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/7b4327a3d2c4b9fb67ffbccd58511745/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:28.0.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/0e53a0b2287c414b4092151fb2f0a5fc/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3e531100e317a97c00a86a4d138d141b/AndroidManifest.xml:17:1-25:12
 MERGED from [com.android.support:cursoradapter:28.0.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/0ea86c14f6b997dfc2113e7f756808f4/AndroidManifest.xml:17:1-22:12
@@ -63,14 +69,22 @@ INJECTED from /home/kluz/Vision/VisionGroup/android/app/src/debug/AndroidManifes
 		ADDED from /home/kluz/Vision/VisionGroup/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /home/kluz/Vision/VisionGroup/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:rn-fetch-blob] /home/kluz/Vision/VisionGroup/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-67
+MERGED from [:rn-fetch-blob] /home/kluz/Vision/VisionGroup/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-67
 	android:name
 		ADDED from /home/kluz/Vision/VisionGroup/android/app/src/main/AndroidManifest.xml:4:22-64
 application
 ADDED from /home/kluz/Vision/VisionGroup/android/app/src/main/AndroidManifest.xml:6:5-24:19
 MERGED from /home/kluz/Vision/VisionGroup/android/app/src/main/AndroidManifest.xml:6:5-24:19
 MERGED from /home/kluz/Vision/VisionGroup/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from [:rn-fetch-blob] /home/kluz/Vision/VisionGroup/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:5-45:19
+MERGED from [:rn-fetch-blob] /home/kluz/Vision/VisionGroup/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:5-45:19
 MERGED from [com.facebook.react:react-native:0.59.5] /home/kluz/.gradle/caches/transforms-1/files-1.1/react-native-0.59.5.aar/b1048aedb26b63e34ccfe358aa95b9a9/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.59.5] /home/kluz/.gradle/caches/transforms-1/files-1.1/react-native-0.59.5.aar/b1048aedb26b63e34ccfe358aa95b9a9/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:support-v4:26.1.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d106e078e9e927b0cc4f410997d0f2cb/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d106e078e9e927b0cc4f410997d0f2cb/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/7b4327a3d2c4b9fb67ffbccd58511745/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/7b4327a3d2c4b9fb67ffbccd58511745/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-compat:28.0.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/0e53a0b2287c414b4092151fb2f0a5fc/AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:support-compat:28.0.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/0e53a0b2287c414b4092151fb2f0a5fc/AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3e531100e317a97c00a86a4d138d141b/AndroidManifest.xml:22:5-23:19
@@ -131,6 +145,10 @@ uses-sdk
 INJECTED from /home/kluz/Vision/VisionGroup/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/kluz/Vision/VisionGroup/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/kluz/Vision/VisionGroup/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-pdf] /home/kluz/Vision/VisionGroup/node_modules/react-native-pdf/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-pdf] /home/kluz/Vision/VisionGroup/node_modules/react-native-pdf/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:rn-fetch-blob] /home/kluz/Vision/VisionGroup/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:rn-fetch-blob] /home/kluz/Vision/VisionGroup/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-gesture-handler] /home/kluz/Vision/VisionGroup/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-gesture-handler] /home/kluz/Vision/VisionGroup/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] /home/kluz/Vision/VisionGroup/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
@@ -139,6 +157,12 @@ MERGED from [com.facebook.react:react-native:0.59.5] /home/kluz/.gradle/caches/t
 MERGED from [com.facebook.react:react-native:0.59.5] /home/kluz/.gradle/caches/transforms-1/files-1.1/react-native-0.59.5.aar/b1048aedb26b63e34ccfe358aa95b9a9/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/52bb4b15c0a5ca5a0cdc3460f429c570/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/52bb4b15c0a5ca5a0cdc3460f429c570/AndroidManifest.xml:20:5-44
+MERGED from [com.github.barteksc:android-pdf-viewer:3.1.0-beta.1] /home/kluz/.gradle/caches/transforms-1/files-1.1/android-pdf-viewer-3.1.0-beta.1.aar/f397a5ea853ac68b3b5cb2568763774b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:android-pdf-viewer:3.1.0-beta.1] /home/kluz/.gradle/caches/transforms-1/files-1.1/android-pdf-viewer-3.1.0-beta.1.aar/f397a5ea853ac68b3b5cb2568763774b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:pdfium-android:1.9.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/pdfium-android-1.9.0.aar/751f6e1316930eabf842c89409779640/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:pdfium-android:1.9.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/pdfium-android-1.9.0.aar/751f6e1316930eabf842c89409779640/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:26.1.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d106e078e9e927b0cc4f410997d0f2cb/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d106e078e9e927b0cc4f410997d0f2cb/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:28.0.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/1ee85016db05355c6075b8c5d02ee514/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/1ee85016db05355c6075b8c5d02ee514/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/0a6ee1204f72cd1a3274a1b42f1e3f8b/AndroidManifest.xml:20:5-44
@@ -165,6 +189,8 @@ MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/kluz/.gradle/c
 MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/34d4d5d3e25e6d41b82dd09cbff37918/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/20e8cfbf38158e3e74b7ac3b6ebd18a6/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/20e8cfbf38158e3e74b7ac3b6ebd18a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/7b4327a3d2c4b9fb67ffbccd58511745/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/7b4327a3d2c4b9fb67ffbccd58511745/AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-compat:28.0.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/0e53a0b2287c414b4092151fb2f0a5fc/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:28.0.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/0e53a0b2287c414b4092151fb2f0a5fc/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3e531100e317a97c00a86a4d138d141b/AndroidManifest.xml:20:5-44
@@ -205,6 +231,8 @@ MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/kluz/.gradle/caches/transf
 MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/ed270e16eb891d63055752290c343e79/AndroidManifest.xml:5:5-7:41
 INJECTED from /home/kluz/Vision/VisionGroup/android/app/src/debug/AndroidManifest.xml
 INJECTED from /home/kluz/Vision/VisionGroup/android/app/src/debug/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d106e078e9e927b0cc4f410997d0f2cb/AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
 		INJECTED from /home/kluz/Vision/VisionGroup/android/app/src/main/AndroidManifest.xml
 		INJECTED from /home/kluz/Vision/VisionGroup/android/app/src/debug/AndroidManifest.xml
@@ -215,3 +243,47 @@ uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from /home/kluz/Vision/VisionGroup/android/app/src/debug/AndroidManifest.xml:5:5-77
 	android:name
 		ADDED from /home/kluz/Vision/VisionGroup/android/app/src/debug/AndroidManifest.xml:5:22-75
+uses-permission#com.android.vending.CHECK_LICENSE
+ADDED from [:rn-fetch-blob] /home/kluz/Vision/VisionGroup/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-73
+	android:name
+		ADDED from [:rn-fetch-blob] /home/kluz/Vision/VisionGroup/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-70
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:rn-fetch-blob] /home/kluz/Vision/VisionGroup/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:5-68
+	android:name
+		ADDED from [:rn-fetch-blob] /home/kluz/Vision/VisionGroup/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:rn-fetch-blob] /home/kluz/Vision/VisionGroup/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:5-79
+	android:name
+		ADDED from [:rn-fetch-blob] /home/kluz/Vision/VisionGroup/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:rn-fetch-blob] /home/kluz/Vision/VisionGroup/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:5-76
+	android:name
+		ADDED from [:rn-fetch-blob] /home/kluz/Vision/VisionGroup/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:22-73
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:rn-fetch-blob] /home/kluz/Vision/VisionGroup/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:5-81
+	android:name
+		ADDED from [:rn-fetch-blob] /home/kluz/Vision/VisionGroup/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:22-78
+provider#android.support.v4.content.FileProvider
+ADDED from [:rn-fetch-blob] /home/kluz/Vision/VisionGroup/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:9-44:20
+	android:grantUriPermissions
+		ADDED from [:rn-fetch-blob] /home/kluz/Vision/VisionGroup/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-47
+	android:authorities
+		ADDED from [:rn-fetch-blob] /home/kluz/Vision/VisionGroup/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-60
+	android:exported
+		ADDED from [:rn-fetch-blob] /home/kluz/Vision/VisionGroup/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from [:rn-fetch-blob] /home/kluz/Vision/VisionGroup/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:rn-fetch-blob] /home/kluz/Vision/VisionGroup/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-43:58
+	android:resource
+		ADDED from [:rn-fetch-blob] /home/kluz/Vision/VisionGroup/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:17-55
+	android:name
+		ADDED from [:rn-fetch-blob] /home/kluz/Vision/VisionGroup/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:17-67
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d106e078e9e927b0cc4f410997d0f2cb/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/7b4327a3d2c4b9fb67ffbccd58511745/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/7b4327a3d2c4b9fb67ffbccd58511745/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d106e078e9e927b0cc4f410997d0f2cb/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] /home/kluz/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d106e078e9e927b0cc4f410997d0f2cb/AndroidManifest.xml:27:13-51

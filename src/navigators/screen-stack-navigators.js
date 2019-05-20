@@ -9,6 +9,8 @@ import LoginScreen from "../screens/LoginScreen";
 import Payments from "../screens/Payments";
 import FeedScreen from "../screens/FeedScreen";
 import PaymentOptionScreen from "../screens/PaymentOptionScreen"
+import MakePayments from "../screens/MakePayments"
+import ReadPdfscreen from "../screens/ReadPdfscreen"
 //Add navigators with screens in this file
 
 export const LoginNavigator = createStackNavigator({
@@ -17,6 +19,10 @@ export const LoginNavigator = createStackNavigator({
 
 export const FeedNavigator = createStackNavigator({
   Feed: { screen: FeedScreen }
+});
+
+export const ReadPdfNavigator = createStackNavigator({
+  PdfRead: { screen: ReadPdfscreen }
 });
 
 export const PaymentsNavigator = createStackNavigator({
@@ -37,7 +43,9 @@ export const ProfileNavigator = createStackNavigator({
 export const SearchNavigator = createStackNavigator({
   Search: { screen: SearchScreen }
 });
-
+export const MakePaymentsNavigator = createStackNavigator({
+  MakePayment: { screen: MakePayments }
+});
 export const NewVisionNavigator = createStackNavigator({
     NewVision: { screen: NewVisionScreen },
     Home: { screen: HomeScreen },

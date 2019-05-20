@@ -2,7 +2,7 @@ import { createSwitchNavigator } from 'react-navigation'
 import DrawerNavigator from './drawer-navigator'
 import {LoginNavigator} from "./screen-stack-navigators";
 
-export const createRootNavigator =  (signedIn = false) => {
+/*export const createRootNavigator =  (signedIn = false) => {
   return createSwitchNavigator(
     {
       SignedIn: {
@@ -17,3 +17,18 @@ export const createRootNavigator =  (signedIn = false) => {
     }
   );
 };
+*/
+
+const SwitchNavigator = createSwitchNavigator(
+  {
+    Login: LoginNavigator,
+    App: DrawerNavigator
+  },
+  {
+    initialRouteName: 'Login'
+  }
+);
+
+const Drawer = createAppContainer(SwitchNavigator);
+
+export default Drawer;

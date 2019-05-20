@@ -1,7 +1,7 @@
 import React from "react";
 import { createDrawerNavigator, createAppContainer,createStackNavigator } from "react-navigation";
 import BottomTabNavigator from "./bottom-tab-navigator";
-import { SettingsNavigator ,NewVisionNavigator,PaymentsOptionNavigator} from "./screen-stack-navigators";
+import { SettingsNavigator ,NewVisionNavigator,PaymentsOptionNavigator,MakePaymentsNavigator,ReadPdfNavigator} from "./screen-stack-navigators";
 import drawerContentComponents from './drawerContentComponents';
 
  
@@ -9,7 +9,9 @@ const DrawerNavigator = createDrawerNavigator({
   Home: BottomTabNavigator,
   Settings: SettingsNavigator,
   NewVision: NewVisionNavigator,
-  PaymentsOption:PaymentsOptionNavigator
+  PaymentsOption:PaymentsOptionNavigator,
+  MakePayments:MakePaymentsNavigator,
+  PdfRead : ReadPdfNavigator
 },
 {
   contentComponent: drawerContentComponents

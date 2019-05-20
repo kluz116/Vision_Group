@@ -54,7 +54,7 @@ export default class NewVisionScreen extends React.Component {
               <Divider style={{ backgroundColor: '#dfe6e9' }} />
               <View>
        
-              <Button title="Get This Copy Please" type="outline" onPress={() => this.props.navigation.navigate('PaymentsOption')}/>
+              <Button buttonStyle={styles.paymentButton} title="Get This Copy Please" type="outline" onPress={() => this.props.navigation.navigate('PaymentsOption')}/>
 
               </View>
 
@@ -90,6 +90,14 @@ const styles = StyleSheet.create({
     height: 130,
     width:150,
     
+  },
+  paymentButton: {
+    borderRadius: 5,
+    height: 45,
+    marginTop: 10,
+    paddingLeft: 10,
+    marginLeft: 15,
+    marginRight: 15,
   },
 
 });

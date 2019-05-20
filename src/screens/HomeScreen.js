@@ -59,14 +59,14 @@ export default class HomeScreen extends React.Component {
       numColumns={2}
       renderItem={({ item }) => {
         return (
-
-
+          
               <View style={styles.container} >
-                <TouchableOpacity onPress={() => this.props.navigation.navigate('NewVision')}>
                 <Image style={styles.imageThumbnail} source = {{ uri: item.flower_image_url }} />
+                <TouchableOpacity onPress={() => this.props.navigation.navigate('NewVision')}>
                 <Text style={styles.welcome}>{item.flower_name}</Text>
                 </TouchableOpacity>
               </View>
+          
 
         );
       }}
@@ -79,6 +79,7 @@ export default class HomeScreen extends React.Component {
 
 const styles = StyleSheet.create({
 
+
   container: {
     flex: 1,
     margin: 5,
@@ -88,12 +89,13 @@ const styles = StyleSheet.create({
     maxHeight: 304,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#f0f0f0',
-    shadowColor: '#000',
-    shadowOffset: { width: 2, height: 2 },
-    shadowOpacity: 0.4,
-    shadowRadius: 5,
+    borderRadius:10,
+    marginTop:10,
+    backgroundColor: '#fff',
     elevation: 5,
+    borderWidth: 1, 
+    borderColor: '#f0f0f0',
+    
     
   }, 
   welcome: {
